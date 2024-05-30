@@ -8,8 +8,8 @@
    ```sh
    npm install
    ```
-3. Input Your Account `account.json`
-   ```js
+3. Input Your Bearer Auth `account.json` ( command on cmd `notepad account.json` )
+   ```sh
    [
      "Bearer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
    ]
