@@ -69,7 +69,7 @@ const { getTasks, claimTask, getProfile } = require('./api');
             } catch (error) {
               console.log();
               console.log(
-                colors.red('❌ Error in claiming task:'),
+                colors.red('Error in claiming task:'),
                 error.message
               );
               console.log(
@@ -78,14 +78,14 @@ const { getTasks, claimTask, getProfile } = require('./api');
             }
           }
         } catch (error) {
-          console.log(colors.red('❌ Error in fetching tasks:'), error.message);
+          console.log(colors.red('Error in fetching tasks:'), error.message);
           console.log(colors.cyan('========================================'));
         }
       }
     } else {
-      console.log(colors.red('❌ Invalid choice.'));
+      console.log(colors.red('Invalid choice.'));
     }
   } catch (error) {
-    console.log(colors.red('❌ Error:'), error);
+    console.log(colors.red('Error:'), error);
   }
 })();
